@@ -5,9 +5,6 @@ import StandatdButton from "./components/Buttons/StandatdButton";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar";
 
-import { Menu, Transition } from '@headlessui/react'; // Importing Headless UI components
-import { Fragment } from 'react';
-import { ChevronDownIcon } from '@heroicons/react/24/outline'; // Importing Heroicons
 
 // swiper slider imports
 import { Swiper, SwiperSlide } from "swiper/react"; // ✅ Import Swiper components
