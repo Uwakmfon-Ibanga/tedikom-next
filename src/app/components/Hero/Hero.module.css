@@ -1,0 +1,6 @@
+.scraperBackground {
+    background-image: url('/heroBG.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
