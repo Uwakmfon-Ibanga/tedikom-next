@@ -3,7 +3,7 @@
 import BorderBotton from "./components/Buttons/BorderBotton";
 import StandatdButton from "./components/Buttons/StandatdButton";
 import Hero from "./components/Hero/Hero";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 
 
 // swiper slider imports
@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
     <header className="border-none stick top-0 bg-white  z-50">
-        {/* <Navbar /> */}
+        <Navbar />
     </header>
     
     <Hero h2a="Your" span="Technology" h2b="Solutions Provider" desc="Building Impactful Solutions that empower businesses to grow and succeed" button={<StandatdButton text="Let’s Talk" />} />
